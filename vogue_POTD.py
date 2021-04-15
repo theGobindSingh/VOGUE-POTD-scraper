@@ -14,7 +14,7 @@ except:
 loc = docs+folder_name
 print ("save location: "+loc)
 
-for x in range(0,15):
+for x in range(0,16):
     url_main="https://api.vogue.it/production/photos?count=16&date_from=2021-04-01&date_to=2021-04-16&isDaily=true&locale=en-us&page=0&type_ids=3"
     m=requests.get(url_main)
     mjs=json.loads(m.text)
