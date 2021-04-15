@@ -2,7 +2,7 @@ import os
 import requests #pip install requests
 import json
 
-folder_name="try_vogue"     #This folder will be created in Documents
+folder_name="vogue"     #This folder will be created in Documents
 
 docs = os.path.expanduser("~/Documents").replace("\\","/") + "/"
 
